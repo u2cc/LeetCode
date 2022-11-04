@@ -36,7 +36,7 @@ import java.util.List;
  */
 class FindDisappearedNumbers {
     public List<Integer> findDisappearedNumbers(int[] nums) {
-        List<Integer> result = new ArrayList<Integer>();
+        List<Integer> result = new ArrayList<>();
         Arrays.sort(nums);
         int nextNumber = 1;
         for(int i=0;i<nums.length;i++){
