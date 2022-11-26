@@ -3,6 +3,9 @@ package com.leetcode.DailyChallenge;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
+/**
+ * https://leetcode.com/problems/find-median-from-data-stream/
+ */
 class MedianFinder {
 
     // apparoch we cna use  a list and do insertion sort
